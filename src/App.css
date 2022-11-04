@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+.App {
+  text-align: center;
+  background-color: #F4F5F7;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  padding:50px 100px;
+  font-family: 'Inter', sans-serif;
+
+
+}
+
+.profile__img {
+  height: 88px;
+  width: 88px;
+  max-width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  border-radius: 275px;
+  box-shadow: 0 2px 25px -5px rgba(0,0,0,.07),0 25px 21px -5px rgba(0,0,0,.04)!important;
+}
+
+.Menu {
+  position: absolute;
+  right: 10%;
+  top: 2.5%;
+}
+
+.menu-icon{
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+#menu-icon-hover,#menu-icon-mobile {
+  display: none;
+
+}
+
+.Menu:hover #menu-icon{
+  display: none;
+}
+
+.Menu:hover #menu-icon-hover{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all .5s ease-in;
+}
+
+#slack {
+  display: none;
+}
+
+.App-header h3 {
+  font-weight: 700;
+  color: #101828;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.App-link-div {
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  padding: 24px 32px;
+  margin-top: 24px;
+  color: #101828;
+}
+
+.App-link-div:hover {
+background: #D0D5DD;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+
+}
+
+.App-link-div:last-child{
+  background: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.App-link-div:last-child .social_svg{
+  padding: 0 5px;
+}
+
+.App-link {
+  color: #101828;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #EAECF0;
+  margin: 16px -50px;
+  padding: 16px;
+}
+
+.App-footer img {
+  height: 32px;
+}
+
+.App-footer p {
+  font-weight: 400;
+  color: #667085;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* Media Queries*/
+@media (max-width:767px) {
+
+  .App {
+    text-align: center;
+    padding:50px 16px;
+  }
+  #menu-icon-mobile {
+    display: block;
+  
+  }
+
+  #menu-icon-hover,#menu-icon {
+    display: none;
+  
+  }
+  
+  
+  .Menu:hover #menu-icon-hover{
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .App-link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  
+  .App-footer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 16px 0px;
+    padding-top: 16px;
+  }
+
+}
