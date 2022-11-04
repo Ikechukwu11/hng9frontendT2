@@ -83,6 +83,18 @@ function App() {
           Design Books
         </a>
         </div>
+
+        <div className='App-link-div'>
+        <a id='contact'
+          className="App-link"
+          href="/contact"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contact Me
+        </a>
+        </div>
+
         <div className='App-link-div'>
         <a
           className="App-link"
