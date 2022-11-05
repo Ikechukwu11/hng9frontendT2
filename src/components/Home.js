@@ -84,14 +84,10 @@ function Home(){
         </div>
 
         <div className='App-link-div'>
-        <Link to="contact">
-        <a id='contact'
+        <Link to={"/contact"} id='contact'
           className="App-link"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           Contact Me
-        </a>
         </Link>
         </div>
 
@@ -116,9 +112,9 @@ function Home(){
         
       </header>
       <footer className='App-footer'>
-        <img src={'./img/Zuri.Internship_Logo.png'} id="zuri_logo" className="zuri_logo" alt="zuri_logo" />
-        <p>HNG Internship 9 Frontend Task</p>
-        <img src={'./img/I4G.png'} id="hng_logo" className="hng_logo" alt="hng_logo" />
+      <img src={'./img/Zuri.Internship_Logo.png'} id="zuri_logo" className="mt-3 zuri_logo" alt="zuri_logo" />
+        <p className='mt-3'>HNG Internship 9 Frontend Task</p>
+        <img src={'./img/I4G.png'} id="hng_logo" className="mt-3 hng_logo" alt="hng_logo" />
       </footer>
     </div>
     
