@@ -63,6 +63,17 @@
   line-height: 30px;
 }
 
+.contact-header > h3, p {
+  color: #101828;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.contact-header p{
+  font-weight: 400;
+}
+
 .App-link-div {
   background: #EAECF0;
   border: 1px solid #EAECF0;
@@ -90,7 +101,7 @@ border-radius: 8px;
   padding: 0 5px;
 }
 
-.App-link {
+.App-link, Link {
   color: #101828;
   text-decoration: none;
   font-size: 24px;
