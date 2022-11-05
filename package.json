@@ -1,7 +1,6 @@
 {
   "name": "hng9-frontend-2",
   "version": "0.1.0",
-  "homepage": "https://ikechukwu11.github.io/hng9frontendT2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
