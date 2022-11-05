@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Error404 from "./components/Error404";
 import {Routes, Route} from "react-router-dom";
-//import Contact from './components/Contact';
+
 function App() {
   return (
     <Routes>
